@@ -1,0 +1,132 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E7E8FF;
+}
+
+main div{
+    background-color: #fff;
+}
+
+main{
+    background-color: #fff;
+    height: 659.7587890625px;
+    width: 570px;
+    position: relative;
+    left: 33%;
+    top: 70px;
+    border-radius: 5px;
+    padding: 45px 60px 45px 60px;
+    box-shadow: 0px 10px 30px 0px #5A5A5A33;
+}
+
+.image-logo{
+    text-align: center;
+    width: 100%;
+}
+
+.header-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-container{
+    margin-top: 30px;
+}
+
+.input-container label{
+    display: block;
+    margin: 10px 0;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputContent{
+    width: 450px;
+    height: 49px;
+}
+
+.email-container input{
+    border: 2px solid #AAB3FF;
+    font-size: 15px;
+    color: #000000;
+    padding: 0 15px;
+}
+
+.password-container input{
+    border: 2px solid #B4B4B4;
+    font-size: 15px;
+    color: #000000;
+    padding: 0 15px;
+}
+
+#input-content{
+    margin: 25px 0;
+}
+
+#input-content input{
+    background-color: #fff;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box1-check{
+    background-color: #fff;
+}
+
+.box1 span{
+    background-color: #fff;
+}
+
+.remember-me{
+    font-size: 15px;
+    color: Grey 5;
+    background-color: #fff;
+    border: none;
+}
+
+.forgot-password a{
+    font-size: 15px;
+    background-color: #fff;
+}
+
+
+.btn-signing button{
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border: none;
+    background-color: #001AFF;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signup{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup a{
+    background-color: transparent;
+}
+
