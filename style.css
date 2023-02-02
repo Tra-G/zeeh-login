@@ -3,6 +3,10 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+a{
+    text-decoration: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -143,8 +147,8 @@ main{
 @media screen and (max-width: 500px) {
     main{
         background-color: #fff;
-        height: unset;
-        width: unset;
+        height: 700px;
+        width: 400px;
         position: unset;
         left: unset;
         top: unset;
@@ -156,7 +160,7 @@ main{
     .header-text{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: bolder;
-        font-size: 18px;
+        font-size: 21px;
         font-weight: 700;
         line-height: 25px;
         letter-spacing: 0em;
@@ -165,13 +169,13 @@ main{
     }
 
     .inputContent{
-        width: 250px;
+        width: 90%;
         height: 49px;
     }
 
     .btn-signing button{
         margin-top: 30px;
-        width: 250px;
+        width: 90%;
         height: 55px;
         border: none;
         background-color: #001AFF;
