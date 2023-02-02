@@ -43,7 +43,7 @@ main{
 }
 
 .input-container{
-    margin-top: 30px;
+    line-height: 30px;
 }
 
 .input-container label{
@@ -60,16 +60,18 @@ main{
 
 .email-container input{
     border: 2px solid #AAB3FF;
-    font-size: 15px;
-    color: #000000;
+    font-size: 16px;
+    color: #CCCCCC;
     padding: 0 15px;
+    
 }
 
 .password-container input{
-    border: 2px solid #B4B4B4;
-    font-size: 15px;
-    color: #000000;
+    border: 1px solid #B4B4B4;
+    font-size: 16px;
+    color: #cccccc;
     padding: 0 15px;
+    
 }
 
 #input-content{
@@ -78,6 +80,11 @@ main{
 
 #input-content input{
     background-color: #fff;
+    border-radius: 5px;
+}
+
+#input-content:focus-visible{
+    border: 2px solid #AAB3FF;
 }
 
 .box1{
@@ -106,6 +113,7 @@ main{
 .forgot-password a{
     font-size: 15px;
     background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -118,6 +126,7 @@ main{
     color: #fff;
     font-size: 15px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .signup{
@@ -130,3 +139,47 @@ main{
     background-color: transparent;
 }
 
+
+@media screen and (max-width: 500px) {
+    main{
+        background-color: #fff;
+        height: unset;
+        width: unset;
+        position: unset;
+        left: unset;
+        top: unset;
+        border-radius: unset;
+        padding: 45px, 60px, 45px, 60px;
+        box-shadow: 0px 10px 30px 0px #5A5A5A33;
+    }
+
+    .header-text{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bolder;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .inputContent{
+        width: 250px;
+        height: 49px;
+    }
+
+    .btn-signing button{
+        margin-top: 30px;
+        width: 250px;
+        height: 55px;
+        border: none;
+        background-color: #001AFF;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    
+
+}
