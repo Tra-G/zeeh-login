@@ -186,6 +186,10 @@ button:hover{
         box-shadow: unset;
     }
 
+    .image-background{
+        display: none;
+    }
+
     .header-text{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: bolder;
